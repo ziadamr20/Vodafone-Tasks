@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite" parallel="false">
+    <test name="Test Suite">
+        <classes>
+            <class name="org.pages.GetDriver"></class>
+        </classes>
+    </test>
+</suite>

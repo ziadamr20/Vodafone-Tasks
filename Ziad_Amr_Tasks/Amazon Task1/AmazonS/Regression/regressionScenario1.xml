@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon Regression Suite" parallel="false">
+    <test name="Amazon Test Suite">
+        <classes>
+            <class name="org.Pages.C1_Driver"></class>
+            <class name="org.Pages.C2_login"></class>
+            <class name="org.Pages.C3_Search"></class>
+            <class name="org.Pages.C4_item_Select"></class>
+            <class name="org.Pages.C5_Cart"></class>
+            <class name="org.Pages.C6_Cart_Check"></class>
+        </classes>
+    </test>
+</suite>
